@@ -138,7 +138,7 @@ Program.encryptDirectory(location11)
 Program.encryptDirectory(location12)
 Program.encryptDirectory(location13) 
 ```
-### !Dump! He Could Do It With For Loop !
+##### !Dump! He Could Do It With For Loop !
 
 </details>
 
@@ -175,4 +175,7 @@ Hmmm , The Name Of The Group Looks Familiar To Me :
 
 > it seems To me The Ransomware Has Been Built By Ransomware Builder Because I Found It In The source Code , there are Functions Not Used By The Ransomware Sample That I Have And I See Settings Strings Not Used
 
-
+And Special Thx To
+@github/s4o
+@github/ihl7
+@github/rayiilz
