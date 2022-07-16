@@ -176,6 +176,6 @@ Hmmm , The Name Of The Group Looks Familiar To Me :
 > it seems To me The Ransomware Has Been Built By Ransomware Builder Because I Found It In The source Code , there are Functions Not Used By The Ransomware Sample That I Have And I See Settings Strings Not Used
 
 And Special Thx To
-@github/s4o
-@github/ihl7
-@github/rayiilz
+[@github/s4o](https://github.com/s4o)
+[@github/ihl7](https://github.com/ihl7)
+[@github/s4o](https://github.com/rayiilz)
