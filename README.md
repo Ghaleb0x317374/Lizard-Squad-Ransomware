@@ -9,16 +9,16 @@ Hello Guys ,Today We Will Analysis Ransomware Sample That I Found On Twitter Acc
 Let's Dive Into It 
 
 ## Functions 
-- [Delete Shadow Copies](#Delete-Shadow-Copies:)
-- [Disable Recovery Mode](#Disable-Recovery-Mode:)
-- [Delete Backup Catalog](#Delete-Backup-Catalog:)
-- [Add Link To Startup](#Add-Link-To-Startup:)
-- [Registry Startup](#Registry-Startup:)
-- [look For Directories](#look-For-Directories:)
-- [Set Wallpaper](#Set-Wallpaper:)
-- [Add And Open Note](#Add-And-Open-Note:)
+- [Delete Shadow Copies](#Delete-Shadow-Copies)
+- [Disable Recovery Mode](#Disable-Recovery-Mode)
+- [Delete Backup Catalog](#Delete-Backup-Catalog)
+- [Add Link To Startup](#Add-Link-To-Startup)
+- [Registry Startup](#Registry-Startup)
+- [look For Directories](#look-For-Directories)
+- [Set Wallpaper](#Set-Wallpaper)
+- [Add And Open Note](#Add-And-Open-Note)
 
-## Delete Shadow Copies:
+## Delete Shadow Copies
     Will Execute This Command :
         "vssadmin delete shadows /all /quiet & wmic shadowcopy delete"
     For Delete Shadows copies
@@ -33,7 +33,7 @@ End Sub
 
 </details>
 
-## Disable Recovery Mode:
+## Disable Recovery Mode
     Will Execute This Command :
         "bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no"
 	to Disable Recovery Mode This Command will Not Allow To The Victim To Use The Recovery Mode 
@@ -48,7 +48,7 @@ End Sub
 
 </details>
 
-## Delete Backup Catalog:
+## Delete Backup Catalog
 	Will Execute This Command :
 		"wbadmin delete catalog -quiet"
 	To Delete BackUp Catalog 
@@ -63,7 +63,7 @@ End Sub
 
 </details>
 
-## Add Link To Startup:
+## Add Link To Startup
     Make lnk File in startup 
 	For persistence
 <details>
@@ -86,12 +86,12 @@ End Sub
 
 </details>
 
-## Registry Startup:
+## Registry Startup
     Set Registry Name Value "Microsoft Store" And Will Set Registry Value Data to The RansomWare Path 
 	The Key :
 		"HKCU/SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
 	To Do persistence
-## look For Directories:
+## look For Directories
 	This Function Will Look For Directories And Encrypted It
 	The List Of The Directories as Saved As String With User Main Dir 
 - Desktop
@@ -142,7 +142,7 @@ Program.encryptDirectory(location13)
 
 </details>
 
-## Set Wallpaper:
+## Set Wallpaper
     This func Will Change The Wallpaper
 	To This Image :
 [![N|Solid](https://pbs.twimg.com/media/FXd016dXoAYn99q?format=jpg&name=small)
@@ -164,7 +164,7 @@ End Sub
 
 </details>
 	
-## Add And Open Note:
+## Add And Open Note
     This Function Will Write Message For Victim
 	The Name Of a File "說明it.txt" 
 	And The Message :
