@@ -143,7 +143,7 @@ Program.encryptDirectory(location13)
 </details>
 
 ## Set Wallpaper
-    This func Will Change The Wallpaper
+    This Function Will Change The Wallpaper
 	To This Image :
 [![N|Solid](https://pbs.twimg.com/media/FXd016dXoAYn99q?format=jpg&name=small)
 <details>
