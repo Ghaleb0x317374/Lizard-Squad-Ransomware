@@ -128,6 +128,7 @@ Program.encryptDirectory(location12)
 Program.encryptDirectory(location13) 
 ## !Dump! He Could Do It With For Loop !
 </details>
+
 ## Set Wallpaper:
     This func Will Change The Wallpaper
 	To This Image :
