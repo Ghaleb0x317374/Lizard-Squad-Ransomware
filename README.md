@@ -178,4 +178,4 @@ Hmmm , The Name Of The Group Looks Familiar To Me :
 And Special Thx To
 [@github/s4o](https://github.com/s4o)
 [@github/ihl7](https://github.com/ihl7)
-[@github/s4o](https://github.com/rayiilz)
+[@github/Rayiilz](https://github.com/rayiilz)
